@@ -1,10 +1,10 @@
-import Link from 'next/link'
 import React, { useRef } from 'react'
+import Link from 'next/link'
 import { collection, addDoc, setDoc, doc, } from "firebase/firestore";
 import { db } from "../utils/firebase";
 import { useRouter } from 'next/router'
 
-function createnew() {
+export default function createnew() {
 
     const router = useRouter();
 
@@ -65,4 +65,3 @@ function createnew() {
     )
 }
 
-export default createnew

@@ -1,5 +1,5 @@
-import { getDoc, updateDoc, deleteDoc, doc } from 'firebase/firestore';
 import React, { useEffect, useState } from 'react'
+import { getDoc, updateDoc, deleteDoc, doc } from 'firebase/firestore';
 import { db } from '../../utils/firebase';
 import { useRouter } from 'next/router'
 import Link from 'next/link'
@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 
 
-function post() {
+export default function post() {
     const router = useRouter();
     const { id } = router.query;
     const [post, setpost] = useState({});
@@ -57,4 +57,3 @@ function post() {
     )
 }
 
-export default post;

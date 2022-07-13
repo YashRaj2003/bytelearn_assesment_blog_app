@@ -1,7 +1,7 @@
-import { collection, getDocs, query } from 'firebase/firestore';
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { collection, getDocs, query } from 'firebase/firestore';
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react';
 import { db } from '../utils/firebase';

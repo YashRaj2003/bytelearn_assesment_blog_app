@@ -1,10 +1,10 @@
-import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
+import Link from 'next/link'
 import { collection, addDoc, setDoc, doc, updateDoc, getDoc, } from "firebase/firestore";
 import { db } from "../../utils/firebase";
 import { useRouter } from 'next/router'
 
-function createnew() {
+export default function createnew() {
 
     const router = useRouter();
     const { id } = router.query;
@@ -57,4 +57,3 @@ function createnew() {
     )
 }
 
-export default createnew
