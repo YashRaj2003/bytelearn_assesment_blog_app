@@ -45,6 +45,7 @@ export default function Edit() {
             </div>
             <div className="my-16">
                 <h2 className="text-center text-xl font-semibold">Update this post</h2>
+                <p className="text-center">*please add only unsplash image url</p>
             </div>
             <div className="w-96 space-y-5 mx-auto">
                 <input type="text" placeholder='title of post' className="w-full px-3 h-12 border border-transparent focus:border-purple-500 outline-none " defaultValue={post?.title} ref={title} />
