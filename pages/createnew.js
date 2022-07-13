@@ -53,6 +53,7 @@ export default function Createnew() {
             </div>
             <div className="my-16">
                 <h2 className="text-center text-xl font-semibold">Create a post</h2>
+                <hp className="text-center">*please add only unsplash image url</hp>
             </div>
             <div className="w-96 space-y-5 mx-auto">
                 <input type="text" placeholder='title of post' className="w-full px-3 h-12 border border-transparent focus:border-purple-500 outline-none " ref={title} />
