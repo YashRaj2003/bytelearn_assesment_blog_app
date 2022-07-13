@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 
 
-export default function post() {
+export default function Post() {
     const router = useRouter();
     const { id } = router.query;
     const [post, setpost] = useState({});

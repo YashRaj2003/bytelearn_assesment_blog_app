@@ -4,7 +4,7 @@ import { collection, addDoc, setDoc, doc, updateDoc, getDoc, } from "firebase/fi
 import { db } from "../../utils/firebase";
 import { useRouter } from 'next/router'
 
-export default function createnew() {
+export default function Edit() {
 
     const router = useRouter();
     const { id } = router.query;

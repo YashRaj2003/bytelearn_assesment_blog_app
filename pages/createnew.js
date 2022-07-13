@@ -4,7 +4,7 @@ import { collection, addDoc, setDoc, doc, } from "firebase/firestore";
 import { db } from "../utils/firebase";
 import { useRouter } from 'next/router'
 
-export default function createnew() {
+export default function Createnew() {
 
     const router = useRouter();
 
